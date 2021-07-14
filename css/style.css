@@ -1,0 +1,199 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: lem; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 600px; }
+
+.carousel-img-1 {
+  background: url("../img/img1.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/img2.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/img3.jpg");
+  background-size: cover; }
+
+#HomeIcon .fa {
+  font-size: 50px; }
+
+#GetID {
+  background: url("../img/img4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #GetID .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+#HomeV {
+  background: url("../img/i.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  position: relative; }
+  #HomeV .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+    #HomeV .dark-overlay .fa {
+      font-size: 50px; }
+
+.gellary {
+  margin: 15px 130px; }
+  .gellary img {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    transition: 1s; }
+  .gellary img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1); }
+
+#CopyrightID {
+  background: #000; }
+
+#AboutHID {
+  background: url("../img/bg1.jpg");
+  background-size: cover;
+  min-height: 264px;
+  background-attachment: fixed;
+  position: relative; }
+  #AboutHID .primary-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 264px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%; }
+
+#ServiceHID {
+  background: url("../img/service.jpg");
+  background-size: cover;
+  min-height: 264px;
+  background-attachment: fixed;
+  position: relative; }
+  #ServiceHID .primary-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 264px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%; }
+
+#BlogHID {
+  background: url("../img/blog.jpg");
+  background-size: cover;
+  min-height: 264px;
+  background-attachment: fixed;
+  position: relative; }
+  #BlogHID .primary-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 264px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%; }
+
+#ContactHID {
+  background: url("../img/cont1.jpeg");
+  background-size: cover;
+  min-height: 264px;
+  background-attachment: fixed;
+  position: relative; }
+  #ContactHID .primary-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 264px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%; }
+
+#About-INFO img {
+  width: 350px;
+  height: 350px; }
+
+#IconID .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+#TestID .slick-prev::before,
+#TestID .slick-next::before {
+  color: #000; }
+
+#TestID slick-prev slick-arrow {
+  color: #000; }
+
+#TestID slick-next slick-arrow {
+  color: #000; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #GetID {
+    min-height: 300px; } }
+
+@media (max-width: 430px) {
+  #About-INFO img {
+    height: 250px;
+    width: 250px; } }
+
+@media (max-width: 767px) {
+  #ServiceHID .row {
+    padding: 7px; }
+  #ServiceHID h2 {
+    font-size: 20px;
+    padding: 5px; }
+  #ServiceHID p {
+    padding: 5px;
+    font-size: 18px; } }
+
+@media (max-width: 576px) {
+  #ServiceHID .row {
+    padding: 5px; }
+  #ServiceHID h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px; }
+  #ServiceHID p {
+    padding: 5px;
+    font-size: 16px; } }
+
+@media (max-width: 576px) {
+  #AboutHID .row {
+    padding: 3px; }
+  #AboutHID h2 {
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 3px; }
+  #AboutHID p {
+    padding: 5px;
+    font-size: 13px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #GetID {
+    min-height: 350px; } }
