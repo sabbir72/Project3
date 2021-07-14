@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/css/uikit.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="/css/uikit.min.css">
+    <link rel="stylesheet" href="/css/lightbox.min.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -14,7 +17,7 @@
 </head>
 <body>
     <!-- navigation -->
-    <nav class="navbar fixed-top navbar-dark  navbar-expand-md " uk-sticky="top:100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+    <nav class="navbar navbar-dark   navbar-expand-md" >
       <div class="container">
         <a class="navbar-brand" href="HomeID">MFT FAMILY</a>
         <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse"  data-target="#ManuID">
@@ -22,13 +25,13 @@
         </button>
         <div id="ManuID" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item  active">
+            <li class="nav-item active ">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="service.html">Service</a>
             </li>
             <li class="nav-item">
@@ -154,87 +157,63 @@
         </div>
       </div>
     </section>
-    <!-- PhotoID -->
-    <section id="PhotoID" class="py-5" uk-lightbox>
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h3>Photo Gellary</h3>
-            <p class="lead"> Check Out Our Photos</p>
-          </div>
-        </div>
-        <div class="row pt-3">
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/img1.jpg">
-                <img src="img/img1.jpg" class="img-fluid"  alt="">
-              </a>
-
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/alon.jpg">
-                <img src="img/alon.jpg"  class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/me.jpeg">
-                <img src="img/me.jpeg"  class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row pt-4">
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/3f.jpeg">
-                <img src="img/3f.jpeg"  class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/i3.jpeg">
-                <img src="img/i3.jpeg" class="img-fluid"  alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/img3.jpg">
-                <img src="img/img3.jpg" class="img-fluid"  alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row pt-4">
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/bgb.jpeg">
-                <img src="img/bgb.jpeg" class="img-fluid"  alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/img2.jpg">
-                <img src="img/img2.jpg" class="img-fluid"  alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="">
-              <a href="img/my.jpg">
-                <img src="img/my.jpg" class="img-fluid"  alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Photo gellary -->
+    <section id="GellaryID" class="py-5" uk-lightbox>
+   <div class="container ">
+     <div class="row text-center mb-3">
+       <div class="col">
+         <h2> Photo Gallery.</h2>
+         <p class="lead">Check out our photos</p>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-md-4">
+         <div>
+           <a href="img/img1.jpg">
+             <img src="img/img1.jpg" class="img-fluid" alt="">
+             </a>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div>
+           <a href="img/alon.jpg">
+             <img src="img/alon.jpg" class="img-fluid" alt="">
+           </a>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div>
+           <a href="img/me.jpeg">
+             <img src="img/me.jpeg" class="img-fluid" alt="">
+           </a>
+         </div>
+       </div>
+     </div>
+     <div class="row pt-0 pt-md-4">
+       <div class="col-md-4">
+         <div>
+           <a href="img/bgb.jpeg">
+             <img src="img/bgb.jpeg" class="img-fluid" alt="">
+           </a>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div>
+           <a href="img/img2.jpg">
+             <img src="img/img2.jpg" class="img-fluid" alt="">
+           </a>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div>
+           <a href="img/my.jpg">
+             <img src="img/my.jpg" class="img-fluid" alt="">
+             </a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
     <!-- News letter-->
     <section id="NewsID" class="py-5 text-center bg-dark text-light">
       <div class="container">
@@ -269,5 +248,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit.icons.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
